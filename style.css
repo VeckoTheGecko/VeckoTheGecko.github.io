@@ -7,7 +7,7 @@ h2 {
   font-family: "Noto Sans JP";
   font-weight: 300;
   border: solid;
-  border-color: white;
+  /* border-color: white; */
   color: white;
 
   text-align: center;
