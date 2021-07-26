@@ -2,42 +2,71 @@ body {
   background-color: #1f1f1f;
 }
 
+p,
 h1,
-h2 {
-  font-family: "Noto Sans JP";
-  font-weight: 300;
-  /* border: solid;
-  border-color: white; */
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
   color: white;
+}
 
-  text-align: center;
+p {
+  line-height: 1.5em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  /* Margins */
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  padding: 1.5em;
+
+  /* Temp border */
+  /* border: tomato;
+  border-style: solid; */
+
+  border-radius: 1em;
+}
+
+.project {
+  background-color: #282828;
 }
 
 h1 {
   font-size: 4em;
-  margin-top: 1em;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 64px;
+  line-height: 78px;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2.25em;
+  font-weight: 600;
+  margin: 0;
 }
 
-.timer {
-  font-size: 1.8em;
-  font-family: "Consolas";
-  color: white;
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.heading p {
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
-.container {
-  height: 100vh;
+.project p {
+  font-weight: normal;
 }
 
-img {
-  text-align: center;
-}
+/* .center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+} */

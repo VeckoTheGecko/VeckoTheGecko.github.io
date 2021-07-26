@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- Custom style sheet -->
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A showcase of projects done by Nick Hodgskin (Vecko)"
     />
 
-    <!-- https://github.com/magicoder10/github-stats -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/gh/byliuyang/github-stats@0.0.4/src/github-stats.js"
-    ></script>
+    <!-- Tab -->
+    <title>Projects</title>
+    <link rel="shortcut icon" type="image/png" href="assets/vecko_icon.png" />
 
-    <title>Vecko - Under Construction</title>
-    <meta charset="UTF-8" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" />
   </head>
   <body>
-    <div class="center container">
-      <h1>Under construction...</h1>
-      <img
-        class="center"
-        style="width: 50%"
-        src="assets/bulldozer.svg"
-        alt="bulldozer"
-      />
-
-      <h2>Launching in:</h2>
-      <p class="timer" style="text-align: center"></p>
-
-      <div id="github-contributions"></div>
-      <div id="github-language-distribution"></div>
-
-      <script src="javascript/countdown.js"></script>
-      <script src="javascript/github_stats.js"></script>
+    <div class="container">
+      <div class="header">
+        <h1>Nick Hodgskin</h1>
+      </div>
     </div>
+
+    <div class="container heading">
+      <h2>Project Showcase</h2>
+      <p>
+        A showcase of a few side projects I have worked on. Some projects are
+        associated with GitHub repos and explanatory videos, which are linked
+        where applicable.
+      </p>
+    </div>
+
+    <div class="container project">
+      <h3>Sudoku Solver</h3>
+      <p>
+        The goal of this project was to not only to make a program to solve
+        sudokus, but also to give consideration to the style of the code. By
+        coding flexibly, and in a readable manner would allow the code to be
+        expanded upon if I or someone else came along at a later date and wanted
+        to expand on the content. An object oriented approach was used, allowing
+        for separation between algorithm logic and the view. This would allow
+        alternate views to be linked up with minimal refactoring. This was also
+        compared to using a function based approach. I used a backtracking
+        algorithm in order to solve the sudokus. In the near future, I plan to
+        implement a view using Kivy. I am also considering allowing the solver
+        to also solve sudoku variants.
+      </p>
+    </div>
+    <div class="container project"></div>
+    <div class="container project"></div>
+    <div class="container project"></div>
+    <div class="container project"></div>
+    <div class="container project"></div>
+    <div class="container project"></div>
   </body>
 </html>
