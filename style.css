@@ -178,6 +178,7 @@ span.tag.blue-backing {
   width: 40%;
   aspect-ratio: 4/3;
   margin: auto;
+  border-style: none;
 }
 
 @media only screen and (max-width: 50em) {
