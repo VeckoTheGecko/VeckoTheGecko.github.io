@@ -50,6 +50,7 @@ p {
   border-radius: 1em;
 }
 
+/* PROJECT CONTAINER */
 .project {
   /* Background for each project section */
   background-color: #282828;
@@ -61,6 +62,7 @@ h1 {
   font-size: 4em;
   font-weight: normal;
   font-style: normal;
+  margin: 0.1em;
 }
 
 h2 {
@@ -69,6 +71,30 @@ h2 {
   font-weight: 600;
   margin: 0;
 }
+
+/* HEADING SECTION */
+.name-header {
+  display: flex;
+  align-items: center;
+}
+
+img#vecko-logo {
+  width: 12em;
+  height: 12em;
+}
+
+img#vecko-signature {
+  width: 10em;
+  height: auto;
+}
+
+span#aka {
+  font-size: 2em;
+  font-weight: 200;
+  color: rgb(212, 212, 212);
+  margin-right: 0.5em;
+}
+
 /* ================================== */
 /* PROJECT SECTION */
 h3 {
@@ -159,10 +185,3 @@ span.tag.blue-backing {
     width: 100%;
   }
 }
-
-/* .center {
-  margin: auto;
-  width: 80%;
-  border: 3px solid green;
-  padding: 10px;
-} */

@@ -3,6 +3,16 @@ A showcase of a few side projects I have worked on. Some projects are
 associated with GitHub repos and explanatory videos, which are linked
 where applicable.
 
+
+## Best of r/happycowgifs: MEGA Compilation
+> Python, Pandas, MoviePy
+> 
+Once upon a time, I stumbled accross a subreddit called r/happycowgifs, and I thought it would amazing to collate the top 1000 posts into one, long "watchable" video for everyones viewing pleasure.
+
+A beautiful mixture of PRAW (a Reddit API wrapper to gather data), Requests, Pandas, and MoviePy allowed me to brew up a 4.5 hour long compilation. The video is complete with metadata for each GIF, and even a progress bar.
+
+https://www.youtube.com/watch?v=PXj1I-77o20
+
 ## Sudoku Solver
 > Python, OOP, Algorithms  
 > 
