@@ -5,7 +5,8 @@ body {
 p,
 h1,
 h2,
-h3 {
+h3,
+span {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -38,9 +39,6 @@ h1 {
   font-size: 4em;
   font-weight: normal;
   font-style: normal;
-
-  font-size: 64px;
-  line-height: 78px;
 }
 
 h2 {
@@ -53,6 +51,7 @@ h3 {
   font-size: 1.5em;
   font-weight: 600;
   margin: 0;
+  margin-bottom: 0.5em;
 }
 
 .heading p {
@@ -62,6 +61,32 @@ h3 {
 
 .project p {
   font-weight: normal;
+}
+
+span.tag {
+  border-radius: 1em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+  margin: 0.2em;
+  color: black;
+}
+
+.green-backing {
+  background-color: #26ed83;
+}
+
+.red-backing {
+  background-color: #ed254e;
+}
+
+.pink-backing {
+  background-color: #da4eb9;
+}
+
+.light-blue-backing {
+  background-color: #26d3ed;
 }
 
 /* .center {
