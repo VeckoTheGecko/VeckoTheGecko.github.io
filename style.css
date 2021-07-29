@@ -186,3 +186,10 @@ span.tag.blue-backing {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 45em) {
+  .name-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
