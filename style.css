@@ -6,7 +6,8 @@ p,
 h1,
 h2,
 h3,
-span {
+span,
+a {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -15,64 +16,7 @@ p {
   line-height: 1.5em;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-
-  /* Margins */
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
-  padding: 1.5em;
-
-  /* Temp border */
-  /* border: tomato;
-  border-style: solid; */
-
-  border-radius: 1em;
-}
-
-.project {
-  background-color: #282828;
-}
-
-h1 {
-  font-size: 4em;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h2 {
-  font-size: 2.25em;
-  font-weight: 600;
-  margin: 0;
-}
-
-h3 {
-  font-size: 1.5em;
-  font-weight: 600;
-  margin: 0;
-  margin-bottom: 0.5em;
-}
-
-.heading p {
-  font-size: 1.125em;
-  font-weight: 500;
-}
-
-.project p {
-  font-weight: normal;
-}
-
-span.tag {
-  border-radius: 1em;
-  padding: 0.2em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-
-  margin: 0.2em;
-  color: black;
-}
-
+/* SIGNATURE COLORS */
 .green-backing {
   background-color: #26ed83;
 }
@@ -87,6 +31,133 @@ span.tag {
 
 .light-blue-backing {
   background-color: #26d3ed;
+}
+
+.blue-backing {
+  background-color: #4e5cda;
+}
+
+/* ROOT CONTAINER */
+.container {
+  width: 80%;
+  margin: auto;
+
+  /* Margins */
+  /* margin-bottom: 1.5em;
+  margin-top: 1.5em; */
+  padding: 1.5em;
+
+  border-radius: 1em;
+}
+
+.project {
+  /* Background for each project section */
+  background-color: #282828;
+  margin-bottom: 4em;
+}
+
+h1 {
+  /* Formatting for Nick Hodgskin */
+  font-size: 4em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  /* Formatting for section heading */
+  font-size: 2.25em;
+  font-weight: 600;
+  margin: 0;
+}
+/* ================================== */
+/* PROJECT SECTION */
+h3 {
+  /* Formatting for project heading */
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 1em;
+  /* margin-bottom: 0.5em; */
+}
+
+.section p {
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+.project p {
+  display: block;
+  font-weight: normal;
+  text-align: justify;
+}
+
+div.project-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+/* GITHUB ICON */
+.github-button {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: solid;
+
+  padding: 0.4em;
+  /* height: 3em; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 1em;
+
+  background-color: #26d3ed;
+}
+
+img.link-icon {
+  width: 1.3em;
+  margin-right: 0.4em;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span.tag {
+  border-radius: 1em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-weight: normal;
+
+  margin: 0.2em;
+  color: black;
+}
+
+span.tag.blue-backing {
+  color: white;
+}
+
+/* PROJECT CONTENT */
+.project-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 40%;
+  aspect-ratio: 4/3;
+  margin: auto;
+}
+
+@media only screen and (max-width: 50em) {
+  .project-image {
+    width: 100%;
+  }
 }
 
 /* .center {

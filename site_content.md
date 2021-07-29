@@ -23,6 +23,8 @@ to also solve sudoku variants.
 
 As part of my Agile Web Development unit at university, we embarked on a journey to create a website where people could learn morse code. The result that Dean Law, Jonathan Choong, and myself came up with was Learn Morse. A website with flashcards, minigames, and user statistics that guides the user through learning morse code. Although the site isn't hosted, the source code is available in the linked repo, and a tour is available in the video to the right.
 
+https://github.com/jonathanjchoong/learn-morse
+
 ## One PDF to Trump them all
 > Python, Selenium, Beautiful Soup, docx  
 > 
@@ -39,7 +41,7 @@ So, what’s next on the chopping block? Here is a lineup of the projects I am p
 In order to get acquainted with computer vision, I am planning to use OpenCV in Python, along with a pretrained posture recognition neural network in order to extract posture information from video. This information will then be imported into Blender, creating an animated character.
 
 
-## Static Website using Next.js
+## Static Website using Next.js and GitHub
 > HTML, CSS, Next.js
 
 I would like to expand and improve this website that you are reading. At the moment it is plain HTML and CSS, however I plan to incorperate Next.js and GitHub actions in order to have the HTML pages render on update. This will allow me to specify site content in separate files, allowing for maintainability.
