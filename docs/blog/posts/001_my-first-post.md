@@ -7,6 +7,8 @@ slug: welcome-to-vecko.me
 
 # A new website, a new beginning. Welcome to vecko.me!
 
+_EDIT: I've since released the vecko.me domain - back to good ol' GitHub pages URL._
+
 !!! note "Update"
 
     This post is now out of date. I have since moved to a version using mkdocs. Surprise surprise - takes time to maintain something bespoke 🙂.
@@ -20,7 +22,7 @@ As I was doing this, I came to encounter two problems:
 
 So I present to you my website, the silver bullet for both of these problems! An easy way to share what I get up to and to discuss it with others, as well as a way for me to keep me motivated and accountable with projects (as my projects aren't just for my own entertainment any more).
 
-Of course, the act of constructing this website has been a project in itself. In fact, it has been one of my biggest projects so far. Through doing this project, I have learned a lot about web development. In the following sections, I will go through my process of developing the website, as well as going over the choices I made. I won't be delving into the the code, but if that is your fancy, the whole project is [visible on GitHub](https://github.com/VeckoTheGecko/vecko.me) for you to check out.
+Of course, the act of constructing this website has been a project in itself. In fact, it has been one of my biggest projects so far. Through doing this project, I have learned a lot about web development. In the following sections, I will go through my process of developing the website, as well as going over the choices I made. I won't be delving into the the code, but if that is your fancy, the whole project is [visible on GitHub](https://github.com/VeckoTheGecko/VeckoTheGecko.github.io) for you to check out.
 
 # The implementation
 
