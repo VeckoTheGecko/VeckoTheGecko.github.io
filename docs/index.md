@@ -21,6 +21,6 @@ hide:
     <div style="padding-bottom: 1em;"></div>
 
     <a href="./blog" class="md-button">Blog</a>
-    <a href="./about" class="md-button">Portfolio</a>
+    <a href="./about" class="md-button">About me</a>
 
 </div>
