@@ -15,6 +15,8 @@ _EDIT: I've since released the vecko.me domain - back to good ol' GitHub pages U
 
 Ever since I started coding a few years ago, I have always loved doing personal projects to explore what is possible with computers, and to just straight up have fun. As I developed my coding skills, what started off as small games with bucket-loads of "if" statements turned into more mature, fully fledged projects.
 
+<!-- more -->
+
 As I was doing this, I came to encounter two problems:
 
 - there wasn't an easy way for me to share my projects with others

@@ -5,3 +5,5 @@
 > ~ Alvin Toffler
 
 This is my portfolio website and blog, built with UV and Mkdocs Material.
+
+`uv run mkdocs serve`
