@@ -41,6 +41,9 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.details
   - pymdownx.superfences
+hooks:
+  - hooks/archive.py
+
 plugins:
   - glightbox
   - blog
