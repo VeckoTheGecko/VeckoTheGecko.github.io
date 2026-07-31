@@ -6,10 +6,17 @@ pagination) and are instead surfaced on the dedicated archive page at
 ``blog/archive.md``.
 """
 
+from mkdocs.plugins import event_priority
 
+
+def _get_blog_plugin(config):
+    return next((p for k, p in config.plugins.items() if "blog" in k), None)
+
+
+@event_priority(-200)
 def on_page_context(context, *, page, config, nav):
     """Filter archived posts from blog views; inject them on the archive page."""
-    blog_plugin = config.plugins.get("blog")
+    blog_plugin = _get_blog_plugin(config)
     if not blog_plugin:
         return context
 
@@ -22,12 +29,15 @@ def on_page_context(context, *, page, config, nav):
         ]
         return context
 
-    # The dedicated archive page: inject all archived posts.
+    # The dedicated archive page: inject all archived posts as rendered excerpts.
     if page.file.src_path == "blog/archive.md":
-        context["posts"] = [
-            post for post in blog_plugin.blog.posts
-            if post.meta.get("archive")
-        ]
+        separator = blog_plugin.config.post_excerpt_separator
+        rendered = []
+        for post in blog_plugin.blog.posts:
+            if post.meta.get("archive") and post.excerpt:
+                post.excerpt.render(page, separator)
+                rendered.append(post.excerpt)
+        context["posts"] = rendered
         context["pagination"] = None
 
     return context
