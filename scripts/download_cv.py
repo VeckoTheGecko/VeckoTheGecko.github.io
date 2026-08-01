@@ -49,7 +49,11 @@ def download_cv(token: str, output: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--token", help="GitHub personal access token")
-    parser.add_argument("--output", default="docs/assets/cv.pdf", help="Output file path (default: docs/assets/cv.pdf)")
+    parser.add_argument(
+        "--output",
+        default="docs/assets/Nick Hodgskin CV.pdf",
+        help="Output file path (default: docs/assets/Nick Hodgskin CV.pdf)",
+    )
     args = parser.parse_args()
 
     token = get_token(args.token)

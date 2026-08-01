@@ -8,7 +8,7 @@ version = "0.1.0"
 [tasks]
 docs = { cmd = "mkdocs serve", depends-on = ["download-cv"]}
 docs-build = { cmd = "mkdocs build --strict" } # download-cv should be run manually
-download-cv = {cmd = "python scripts/download_cv.py", outputs = ["docs/assets/cv.pdf"]}
+download-cv = {cmd = "python scripts/download_cv.py", outputs = ["docs/assets/Nick Hodgskin CV.pdf"]}
 
 [dependencies]
 python = ">=3.14.6,<3.15"
