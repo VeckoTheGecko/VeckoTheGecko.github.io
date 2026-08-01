@@ -24,6 +24,6 @@ I am an active member of the following communities:
 - [Scientific Python](https://discuss.scientific-python.org/)
 - The Python community more generally (going to local events: Pydata, Pycon etc.)
 
-See below for my resume...
+See below for my resume.
 
-_Coming soon_
+ [View CV](./assets/cv.pdf){ .md-button .md-button--primary target="_blank"}
