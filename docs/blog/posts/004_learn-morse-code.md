@@ -2,6 +2,7 @@
 date:
   created: 2022-02-08T08:00:00+08:00
 slug: learn-morse
+archive: true
 ---
 
 # Website: Learn Morse Code

@@ -2,6 +2,7 @@
 date:
   created: 2022-02-09T08:00:00+08:00
 slug: presidential-speeches
+archive: true
 ---
 
 # Project: Presidential PDFs

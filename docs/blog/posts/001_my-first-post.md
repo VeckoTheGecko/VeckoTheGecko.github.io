@@ -3,6 +3,7 @@ date:
   created: 2022-01-30
   updated: 2025-01-17
 slug: welcome-to-vecko.me
+archive: true
 ---
 
 # A new website, a new beginning. Welcome to vecko.me!
