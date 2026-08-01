@@ -8,3 +8,6 @@ __pycache__
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# handled by download-cv
+docs/assets/cv.pdf
