@@ -23,10 +23,7 @@ def on_page_context(context, *, page, config, nav):
     # Blog index / pagination / category pages already have context["posts"]
     # set by the blog plugin. Strip out any post marked archive: true.
     if "posts" in context:
-        context["posts"] = [
-            post for post in context["posts"]
-            if not post.meta.get("archive")
-        ]
+        context["posts"] = [post for post in context["posts"] if not post.meta.get("archive")]
         return context
 
     # The dedicated archive page: inject all archived posts as rendered excerpts.
