@@ -26,8 +26,8 @@ extra_css:
 nav:
   - index.md
   - Blog:
-    - blog/index.md
-    - blog/archive.md
+      - blog/index.md
+      - blog/archive.md
   - talks/index.md
   - about.md
 extra:

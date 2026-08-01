@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Vecko <36369090+VeckoTheGecko@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "VeckoTheGecko.github.io"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+docs = { cmd = "mkdocs serve" }
+docs-build = { cmd = "mkdocs build" }
+
+[dependencies]
+python = ">=3.14.6,<3.15"
+
+[pypi-dependencies]
+mkdocs-glightbox = ">=0.5.2, <0.6"
+mkdocs-material = ">=9.7.7, <10"
+mkdocs-rss-plugin = ">=1.19.0, <2"
+mkdocs = "<2"
