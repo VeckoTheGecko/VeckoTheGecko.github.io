@@ -25,8 +25,9 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - index.md
-  - blog/index.md
-  - blog/archive.md
+  - Blog:
+    - blog/index.md
+    - blog/archive.md
   - talks/index.md
   - about.md
 extra:
@@ -39,6 +40,7 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - footnotes
   - admonition
   - pymdownx.blocks.caption
   - pymdownx.details
@@ -48,7 +50,8 @@ hooks:
 
 plugins:
   - glightbox
-  - blog
+  - blog:
+      archive: false
   - rss:
       match_path: blog/posts/.*
       date_from_meta:

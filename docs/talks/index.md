@@ -1,3 +1,10 @@
+---
+hide:
+  - navigation
+  - toc
+  - footer
+---
+
 # Talks
 
 | Date       | Title                                                                                   | Event      | Author        | Description                                                                                                                                                                             |
