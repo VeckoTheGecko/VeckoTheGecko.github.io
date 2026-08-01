@@ -4,8 +4,8 @@
 import argparse
 import subprocess
 import sys
-import requests
 
+import requests
 
 REPO = "VeckoTheGecko/resume"
 ASSET_NAME = "cv.pdf"
@@ -15,9 +15,7 @@ API_URL = f"https://api.github.com/repos/{REPO}/releases/latest"
 def get_token(provided: str | None) -> str:
     if provided:
         return provided
-    result = subprocess.run(
-        ["gh", "auth", "token"], capture_output=True, text=True
-    )
+    result = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True)
     if result.returncode != 0:
         sys.exit("No --token provided and `gh auth token` failed. Run `gh auth login` first.")
     return result.stdout.strip()

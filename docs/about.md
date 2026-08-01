@@ -26,4 +26,4 @@ I am an active member of the following communities:
 
 See below for my resume.
 
- [View CV](./assets/cv.pdf){ .md-button .md-button--primary target="_blank"}
+[View CV](./assets/cv.pdf){ .md-button .md-button--primary target="\_blank"}
