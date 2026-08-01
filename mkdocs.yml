@@ -27,6 +27,7 @@ nav:
   - index.md
   - blog/index.md
   - blog/archive.md
+  - talks/index.md
   - about.md
 extra:
   social:
