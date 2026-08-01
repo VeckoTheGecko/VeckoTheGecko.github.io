@@ -2,6 +2,7 @@
 date:
   created: 2022-02-06
 slug: top-of-happycowgifs
+archive: true
 ---
 
 # Video: Top 1000 posts of r/happycowgifs

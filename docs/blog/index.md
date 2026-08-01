@@ -1,8 +1,7 @@
 ---
 hide:
-  - navigation
   - toc
   - footer
 ---
 
-# Blog
+# Posts

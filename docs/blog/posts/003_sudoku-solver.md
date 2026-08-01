@@ -2,6 +2,7 @@
 date:
   created: 2022-02-07T08:00:00+08:00
 slug: sudoku-solver
+archive: true
 ---
 
 # Video: Solving sudokus using depth first search
